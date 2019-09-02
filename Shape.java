@@ -2,7 +2,7 @@
 /**
  * Write a description of interface Shape here.
  *
- * @author (2018315036 양유석)
+ * @author (2018315036 양유석, 2018315030 이가영)
  * @version (2019.09.02)
  */
 public interface Shape
