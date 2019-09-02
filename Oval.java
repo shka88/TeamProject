@@ -7,27 +7,19 @@
  */
 public class Oval implements Shape
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Oval
-     */
-    public Oval()
-    {
-        // initialise instance variables
-        x = 0;
+    int width; 
+    int height;
+    
+    public Oval(int width, int height){
+        this.width = width;
+        this.height = height;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+ 
+    public void draw(){
+        System.out.println(width + "*" + height +"에 내접하는 타원입니다.");
+    }
+    
+    public double getArea(){
+        return PI*width*height;
     }
 }
