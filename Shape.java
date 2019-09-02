@@ -2,8 +2,8 @@
 /**
  * Write a description of interface Shape here.
  *
- * @author (2018315022 이지연)
- * @version (19.09.02)
+ * @author (2018315036 양유석, 2018315030 이가영, 2018315022 이지연)
+ * @version (2019.09.02)
  */
 public interface Shape
 {
@@ -16,3 +16,4 @@ public interface Shape
          draw();
     }
 }
+
