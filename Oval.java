@@ -16,7 +16,7 @@ public class Oval implements Shape
     }
  
     public void draw(){
-        System.out.println(width + "*" + height +"에 내접하는 타원입니다.");
+        System.out.println(width + "x" + height +"에 내접하는 타원입니다.");
     }
     
     public double getArea(){
