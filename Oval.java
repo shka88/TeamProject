@@ -20,6 +20,6 @@ public class Oval implements Shape
     }
     
     public double getArea(){
-        return PI*width*height;
+        return PI*(width/2)*(height/2);
     }
 }
