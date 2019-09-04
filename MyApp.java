@@ -17,6 +17,6 @@ public class MyApp
             list[i].redraw();    
         
         for(int i = 0; i < list.length; i++)          
-            System.out.println("면적은" + list[i].getArea()); 
+            System.out.println("면적은 " + list[i].getArea()); 
     }
 }
