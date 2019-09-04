@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class MyApp here.
+ * Circle과 Oval, Rect클래스로부터 도형을 그리고 면적을 계산하는 프로그램.
  *
  * @author (2018315036 양유석, 2018315030 이가영, 2018315022 이지연)
  * @version (2019.09.04)
